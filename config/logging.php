@@ -101,4 +101,9 @@ return [
         ],
     ],
 
+    'query' => [
+        'enabled' => env('LOG_QUERY', true),
+        'slower_than' => 0,
+    ],
+
 ];
